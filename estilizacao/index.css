@@ -1,0 +1,43 @@
+
+        body{
+            background-color: rgb(45, 211, 111);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form{
+            width: 300px;
+        }
+        input{
+            border: none;
+        }
+        input , button{
+            padding: 10px;
+            margin-bottom: 10px;
+            width:-webkit-fill-available;
+        }
+        button{
+            cursor: pointer;
+            width:-webkit-fill-available;
+        }
+        button:active{
+            opacity: 0.0;
+        }
+        
+        .clear{
+            background-color: transparent;
+            border: none;
+            color: white;
+
+        }
+        .solid{
+            background: white;
+            border: none;
+            color: rgb(45, 211, 111);
+        }
+        .outline{
+            background-color: transparent;
+            color: white;
+            border: solid white;
+        }
