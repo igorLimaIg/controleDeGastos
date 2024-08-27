@@ -11,23 +11,23 @@
     <form>
         <div>
             <div><label>Email</label></div>
-            <input type="email" name="email" placeholder="seu@email.com" />
+            <input type="email" name="email" id="email"  placeholder="seu@email.com" onchange="validateFields()"/>
         </div>
         <div>
-            <div><label>Senha</label><br></div>
-            <input type="password" name="password" placeholder="senha" />
+            <div><label>Senha</label></div>
+            <input type="password" name="password" id="passoword"   placeholder="senha" onchange="validateFields()" />
         </div>
         <div>
-            <button type="button" class="clear">Recuperar Senha</button>
+            <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar Senha</button>
         </div>
         <div>
-            <button type="button" class ="solid">Entrar</button>
+            <button type="button" class="solid" id="login-button" disabled="true">Entrar</button>
         </div>
         <div>
-            <button type="button" class="outline"  >Registrar</button>
+            <button type="button" class="outline">Registrar</button>
         </div>
     </form>
 </body>
-<link rel="stylesheet" href="../estilizacao/index.css">
-    
+<link rel="stylesheet" href="../estilizacaoCss/index.css">
+<script src="../logicaJs/index.js"></script>
 </html>
